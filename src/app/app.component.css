@@ -1,0 +1,39 @@
+body {
+  background-color: bisque;
+}
+
+/* Estilo para la lista no ordenada (ul) */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* Estilo para cada elemento de lista (li) */
+li {
+  margin: 10px;
+  padding: 10px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para los datos de usuario dentro de cada elemento de lista */
+li p {
+  margin: 5px 0;
+  font-weight: bold;
+}
+
+/* Estilo para la dirección */
+li .direccion {
+  font-weight: normal;
+  font-size: 0.9em;
+  color: #555;
+
+}
+
+/* Estilo para la fecha de nacimiento */
+li .fechaNacimiento {
+  font-weight: normal;
+  font-size: 0.9em;
+  color: #555;
+
+}
